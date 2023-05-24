@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#b19cd9,#88d8b0);
+  }
+  
+  header {
+    background-color: #b19cd9;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 30px;
+    display: flex;
+    margin-right: 200px;
+    margin-left: 200px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7c4dd;
+    color: #333;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #4ecdc4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #88d8b0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4ecdc4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45b8af;
+  }
+
+  .galeria-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .galeria-visual .imagen {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .galeria-visual .imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria-visual .imagen:hover img {
+    transform: scale(1.1);
+  }
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
